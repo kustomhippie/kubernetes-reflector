@@ -1,0 +1,16 @@
+---
+apiVersion: kustomize.config.k8s.io/v1beta1
+kind: Kustomization
+
+resources:
+  - operator/
+
+commonLabels:
+  app.kubernetes.io/name: kubernetes-reflector
+
+images:
+  - name: kubernetes-reflector
+    newName: docker.io/emberstack/kubernetes-reflector
+    newTag: "5.4.17"
+
+...

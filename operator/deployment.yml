@@ -18,7 +18,7 @@ spec:
       containers:
         - name: server
           image: kubernetes-reflector
-          imagePullPolicy: Always
+          imagePullPolicy: IfNotPresent
 
           securityContext:
             capabilities:

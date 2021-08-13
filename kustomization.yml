@@ -10,7 +10,7 @@ commonLabels:
 
 images:
   - name: kubernetes-reflector
-    newName: docker.io/emberstack/kubernetes-reflector
+    newName: emberstack/kubernetes-reflector
     newTag: "5.4.17"
 
 ...

@@ -4,12 +4,30 @@ kind: Deployment
 
 metadata:
   name: kubernetes-reflector
+  labels:
+    app.kubernetes.io/name: kubernetes-reflector
+    app.kubernetes.io/component: operator
 
 spec:
   replicas: 1
+  revisionHistoryLimit: 3
+
+  strategy:
+    type: Recreate
+
+  selector:
+    matchLabels:
+      app.kubernetes.io/name: kubernetes-reflector
+      app.kubernetes.io/component: operator
 
   template:
+    metadata:
+      labels:
+        app.kubernetes.io/name: kubernetes-reflector
+        app.kubernetes.io/component: operator
+
     spec:
+      enableServiceLinks: false
       serviceAccountName: kubernetes-reflector
 
       securityContext:
@@ -28,9 +46,9 @@ spec:
             runAsNonRoot: true
             runAsUser: 1000
 
-          env:
-            - name: ES_Serilog__MinimumLevel__Default
-              value: "Information"
+          envFrom:
+            - configMapRef:
+                name: kubernetes-reflector
 
           ports:
             - name: http

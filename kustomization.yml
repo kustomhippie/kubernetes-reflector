@@ -8,6 +8,6 @@ resources:
 images:
   - name: kubernetes-reflector
     newName: emberstack/kubernetes-reflector
-    newTag: "6.1.23"
+    newTag: "6.1.47"
 
 ...

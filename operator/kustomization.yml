@@ -17,4 +17,9 @@ configMapGenerator:
     literals:
       - ES_Serilog__MinimumLevel__Default=Information
 
+images:
+  - name: kubernetes-reflector
+    newName: emberstack/kubernetes-reflector
+    newTag: "6.1.47"
+
 ...

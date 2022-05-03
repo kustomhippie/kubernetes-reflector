@@ -5,9 +5,4 @@ kind: Kustomization
 resources:
   - operator/
 
-images:
-  - name: kubernetes-reflector
-    newName: emberstack/kubernetes-reflector
-    newTag: "6.1.47"
-
 ...

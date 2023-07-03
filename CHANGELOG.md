@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.0.2](https://github.com/kustomhippie/kubernetes-reflector/compare/v1.0.1...v1.0.2) (2023-07-03)
+
+
+### Bugfixes
+
+* **patch:** update emberstack/kubernetes-reflector docker tag to v7.0.183 ([5a42d9a](https://github.com/kustomhippie/kubernetes-reflector/commit/5a42d9ae78ad00af24916ce5aaa8967f62fa6b20))
+
 ## [1.0.1](https://github.com/kustomhippie/kubernetes-reflector/compare/v1.0.0...v1.0.1) (2023-06-19)
 
 ## 1.0.0 (2023-06-05)

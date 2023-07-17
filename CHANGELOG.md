@@ -1,5 +1,12 @@
 # Changelog
 
+## [2.0.0](https://github.com/kustomhippie/kubernetes-reflector/compare/v1.0.3...v2.0.0) (2023-07-17)
+
+
+### Features
+
+* **major:** update actionhippie/kustomize action to v2 ([9d8b66f](https://github.com/kustomhippie/kubernetes-reflector/commit/9d8b66f35b3832f5d01cf2cc1d373a128ba8dcf2))
+
 ## [1.0.3](https://github.com/kustomhippie/kubernetes-reflector/compare/v1.0.2...v1.0.3) (2023-07-10)
 
 

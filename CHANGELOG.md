@@ -1,5 +1,18 @@
 # Changelog
 
+## [3.1.0](https://github.com/kustomhippie/kubernetes-reflector/compare/v3.0.3...v3.1.0) (2025-05-05)
+
+
+### Features
+
+* **deps:** update emberstack/kubernetes-reflector docker tag to v9.1.2 ([#26](https://github.com/kustomhippie/kubernetes-reflector/issues/26)) ([e67da42](https://github.com/kustomhippie/kubernetes-reflector/commit/e67da428e1aa729115a72d2f95de94291493d9ff))
+
+
+### Bugfixes
+
+* **deps:** update emberstack/kubernetes-reflector docker tag to v9.1.3 ([#27](https://github.com/kustomhippie/kubernetes-reflector/issues/27)) ([c81db95](https://github.com/kustomhippie/kubernetes-reflector/commit/c81db95feeb346fa22d68b408a45fb94cb3f19e0))
+* **deps:** update emberstack/kubernetes-reflector docker tag to v9.1.4 ([#28](https://github.com/kustomhippie/kubernetes-reflector/issues/28)) ([56c4ebd](https://github.com/kustomhippie/kubernetes-reflector/commit/56c4ebd159a81feb0de816272f48e651ebf9148a))
+
 ## [3.0.3](https://github.com/kustomhippie/kubernetes-reflector/compare/v3.0.2...v3.0.3) (2025-04-28)
 
 

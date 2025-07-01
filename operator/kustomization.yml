@@ -20,6 +20,6 @@ configMapGenerator:
 images:
   - name: kubernetes-reflector
     newName: emberstack/kubernetes-reflector
-    newTag: "9.1.15"
+    newTag: "9.1.16"
 
 ...

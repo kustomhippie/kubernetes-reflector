@@ -1,5 +1,12 @@
 # Changelog
 
+## [3.1.9](https://github.com/kustomhippie/kubernetes-reflector/compare/v3.1.8...v3.1.9) (2025-08-11)
+
+
+### Bugfixes
+
+* **deps:** update emberstack/kubernetes-reflector docker tag to v9.1.25 ([#46](https://github.com/kustomhippie/kubernetes-reflector/issues/46)) ([1420536](https://github.com/kustomhippie/kubernetes-reflector/commit/1420536887442d7a923640bf945d483b8fa9f5b4))
+
 ## [3.1.8](https://github.com/kustomhippie/kubernetes-reflector/compare/v3.1.7...v3.1.8) (2025-07-21)
 
 
